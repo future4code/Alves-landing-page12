@@ -1,0 +1,36 @@
+
+body{
+    background-color: #F5F6FA;
+}
+
+.img-icones{
+    position:absolute;
+    left:15%;
+    top:125%;
+    margin-right:-50x;
+    margin-top:-40px;
+}
+.img-cartao{
+    position:absolute;
+    left:50%;
+    top:30%;
+    margin-left:-600px;
+    margin-top:-40px;
+     
+}
+.titulo{
+    position:absolute;
+    left:30%;
+    top:15%; 
+    color: #30336b;
+}
+.frase{
+    position:absolute;
+    left:38%;
+    top:70%; 
+    color: #30336b;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+
+}
