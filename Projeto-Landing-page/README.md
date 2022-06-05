@@ -1,8 +1,12 @@
 ### Landing Page: F4bank
 
+![image](https://user-images.githubusercontent.com/103120880/172064991-8b546b87-ffa4-4b2a-912d-78f67d25a8e5.png)
+
 ### Descrição do Projeto
 
 - Projeto em grupo de uma landing page de um banco digital.
+
+Membros: Douglas, Gabriel e Rafael (?)
 
 ### Status do Projeto
 
