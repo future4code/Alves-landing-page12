@@ -6,6 +6,8 @@
 
 - Projeto em grupo de uma landing page de um banco digital.
 
+Membros: Douglas, Gabriel e Rafael (?)
+
 ### Status do Projeto
 
 ### Funcionalidades
