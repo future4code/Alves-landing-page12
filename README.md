@@ -12,7 +12,7 @@ Membros: Douglas, Gabriel e Rafael
 
 ### Funcionalidades
 
-- Mobile Ready
+- Mobile Ready (apenas a home e a pagina de login)
 - Tela de Login
 
 ### Tecnologias utilizadas
