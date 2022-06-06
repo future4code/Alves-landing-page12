@@ -6,11 +6,7 @@
 
 - Projeto em grupo de uma landing page de um banco digital.
 
-<<<<<<< HEAD
 Membros: Douglas, Gabriel e Rafael (?)
-=======
-Membros: Douglas, Gabriel e Rafael
->>>>>>> master
 
 ### Status do Projeto
 
