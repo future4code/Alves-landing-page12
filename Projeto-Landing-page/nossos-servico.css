@@ -31,6 +31,15 @@ body{
     color: #30336b;
 }
 
+header img {
+    object-fit: cover;
+
+}
+
+* img {
+    max-width: 100%;
+}
+
 @media screen and (min-width: 700px) and (max-width: 1200px) {
 
 }
