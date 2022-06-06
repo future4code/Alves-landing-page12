@@ -6,7 +6,6 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-<<<<<<< HEAD:styles.css
 
 body {
     font-size: 100%;
@@ -15,22 +14,12 @@ body {
 
 body {
     display: grid;
-=======
-
-body {
-    display: grid;
-    flex-wrap: wrap;
->>>>>>> master:Projeto-Landing-page/quem-somos.css
     width: 100%;
-    height: 83vw;
-    grid-template-rows: 6vw 65vw 13vw;
+    height: 69vw;
+    grid-template-rows: 6vw 50vw 13vw;
     grid-template-columns: 50vw;
     grid-template-areas: 'header nav'
-<<<<<<< HEAD:styles.css
-        'main  main2'
-=======
-        'section section'
->>>>>>> master:Projeto-Landing-page/quem-somos.css
+        'main main'
         'foot  foot'
 
 }
@@ -66,10 +55,10 @@ body {
         display: grid;
         width: 100%;
         height: 220vw;
-        grid-template-rows: 45vw 130vw 45vw;
+        grid-template-rows: 45vw 140vw 50vw;
         grid-template-columns: 50vw;
         grid-template-areas: 'header nav'
-            'main  main2'
+            'main  main'
             'foot  foot'
 
     }
@@ -123,7 +112,7 @@ body {
         grid-template-rows: 12vw 130vw 45vw;
         grid-template-columns: 50vw;
         grid-template-areas: 'header nav'
-            'main  main2'
+            'main  main'
             'foot  foot'
 
     }
@@ -145,7 +134,7 @@ body {
         grid-template-rows: 8vw 130vw 45vw;
         grid-template-columns: 50vw;
         grid-template-areas: 'header nav'
-            'main  main2'
+            'main  main'
             'foot  foot'
     }
 
@@ -160,7 +149,6 @@ body {
 
 header {
     display: grid;
-    flex-wrap: wrap;
     justify-items: center;
     grid-area: header;
     background-color: #ff914d;
@@ -174,7 +162,6 @@ header img {
 
 nav {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     grid-area: nav;
@@ -183,7 +170,7 @@ nav {
     align-items: center;
 }
 
-.menu {
+#menu {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -196,17 +183,17 @@ nav {
     list-style: none;
 }
 
-.menu li {
+#menu li {
     color: aliceblue;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
-.menu li:hover {
+#menu li:hover {
     color: black;
 }
 
-.acessar {
+#acessar {
     background-color: #30336b;
     border-radius: 60vw;
     padding: 0.5vw;
@@ -215,56 +202,24 @@ nav {
     font-weight: 100;
 }
 
-<<<<<<< HEAD:styles.css
 #acessar:hover {
-=======
-.acessar:hover {
->>>>>>> master:Projeto-Landing-page/quem-somos.css
     color: #ff914d;
 }
 
-section{
-    display: grid;
-    grid-area: section;
+main {
+    grid-area: main;
+    background-color: #f5f6fa;
+
+}
+
+#main2 {
+    grid-area: main2;
     background-color: #f5f6fa;
 }
 
-<<<<<<< HEAD:styles.css
 .box2 img {
     object-fit: cover;
     width: 38vw;
-=======
-article{
-    display: block;
-    margin: auto;
-    margin-bottom:20%;
-}
-
-h1{
-    display: block;
-    margin: auto;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-h2{
-    display: block;
-    margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    font-size: 2.5rem;
-}
-h3{
-    margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    font-size: 1.3rem;
-}
-
-p{
-    display: block;
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
->>>>>>> master:Projeto-Landing-page/quem-somos.css
 }
 
 footer {
@@ -272,78 +227,195 @@ footer {
     background-color: #30336b
 }
 
-.div-footer {
+#div-footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #30336b;
 }
 
-.div-footer h4 {
+#div-footer h4 {
     color: #f5f6fa;
     font-size: 1.2rem;
     margin-top: 0.5;
 }
 
-<<<<<<< HEAD:styles.css
 #div-footer img {
-=======
-.div-footer img {
->>>>>>> master:Projeto-Landing-page/quem-somos.css
     background-color: #30336b;
     object-fit: cover;
 }
 
-
-.redes-sociais {
+#redes-sociais {
     display: flex;
     justify-content: center;
     gap: 0.2vw;
     margin-top: 0.1vw;
 }
 
-.atendimento {
+#atendimento {
     display: flex;
     justify-content: center;
     align-items: end;
     margin-top: 1vw;
 }
 
-.atendimento h4 {
+#atendimento h4 {
     color: #f5f6fa;
     font-size: 1.2rem;
 }
 
-.numero {
+#numero {
     display: flex;
     justify-content: center;
     align-items: end;
 }
 
-<<<<<<< HEAD:styles.css
 #numero p {
-=======
-.numero p {
->>>>>>> master:Projeto-Landing-page/quem-somos.css
     color: #f5f6fa;
     font-size: 1.0rem;
 }
 
-.copyright {
+#copyright {
     display: flex;
     justify-content: center;
     align-items: end;
     margin-top: 4vw;
 }
 
-<<<<<<< HEAD:styles.css
 #copyright p {
-=======
-.copyright p {
->>>>>>> master:Projeto-Landing-page/quem-somos.css
     color: #f5f6faa2;
 }
 
 * img {
     max-width: 100%;
+}
+
+#login {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.card {
+
+    background-color: rgba(19, 19, 19, 0.3);
+
+    padding: 40px;
+
+    border-radius: 2px;
+
+    width:280px;
+
+}
+
+.card-header {
+
+    padding-bottom: 50px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+}
+
+.card-header::after {
+
+    content: "";
+
+    width: 70px;
+
+    height: 1px;
+
+    background-color: #fff;
+
+    display: block;
+
+    margin-top: -17px;
+
+    margin-left: -5px;
+
+}
+
+.card-content label {
+
+    color: #fff;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    padding:0 5px;
+
+    background-color: transparent;
+
+    border:none;
+
+    border-bottom: 1px solid #e1e1e1;
+
+    outline: none;
+
+    color: #fff;
+
+}
+
+.card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.card-footer .submit{
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: #ff720c;
+
+    border:none;
+
+    color:#e1e1e1;
+
+    margin: 10px 0;
+
+}
+
+.card-footer a {
+
+    text-align: center;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+    text-decoration: none;
+
 }
